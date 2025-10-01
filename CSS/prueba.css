@@ -1,0 +1,47 @@
+css/* Estilos para elementos con clase .titulo */
+.titulo {
+  color: rgb(28, 231, 89);
+  font-size: 24px;
+}
+
+/* Estilos para todos los elementos con clase .texto */
+.texto {
+  color: gray;
+  font-family: Arial;
+}
+
+/* Estilo aplicado solo al elemento con id especial */
+#especial {
+  color: red;
+  font-weight: bold;
+}
+
+/* Estilo único para el header */
+#encabezado {
+  background-color: rgb(76, 162, 190);
+  padding: 20px;
+}
+
+.contenedor {
+      text-align: center; /* Centra contenido inline horizontalmente */
+      border: 1px solid #ccc;
+      padding: 20px;
+      width: 300px;
+      margin: 30px auto; /* Centra el div en la página */
+      background-color: #f9f9f9;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .contenedor img {
+      display: inline-block; /* Hace que la imagen sea inline para heredar text-align */
+      max-width: 100%;
+      height: auto;
+      border-radius: 6px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    .descripcion {
+      margin-top: 10px;
+      font-size: 1rem;
+      color: #333;
+      font-family: Arial, sans-serif;
+    }
